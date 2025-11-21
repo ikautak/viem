@@ -1,5 +1,13 @@
 # viem
 
+## 2.40.0
+
+### Minor Changes
+
+- [#4098](https://github.com/wevm/viem/pull/4098) [`003b231361f223487aa3e6a67a1e5258e8fe758b`](https://github.com/wevm/viem/commit/003b231361f223487aa3e6a67a1e5258e8fe758b) Thanks [@jxom](https://github.com/jxom)! - Hooked up `eth_fillTransaction` routing to `prepareTransactionRequest`, to reduce the RPC calls required to prepare a local transaction from 3-4, to 1 (if `eth_fillTransaction` is supported by the execution node).
+
+- [#4098](https://github.com/wevm/viem/pull/4098) [`003b231361f223487aa3e6a67a1e5258e8fe758b`](https://github.com/wevm/viem/commit/003b231361f223487aa3e6a67a1e5258e8fe758b) Thanks [@jxom](https://github.com/jxom)! - Added `fillTransaction` action for `eth_fillTransaction` support.
+
 ## 2.39.3
 
 ### Patch Changes
